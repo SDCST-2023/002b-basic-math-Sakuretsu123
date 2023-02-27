@@ -1,5 +1,5 @@
 #!python3
-
+import math
 '''
 ##### Task 8
 Read through the file **example2.py** for information on using the math module.
@@ -14,3 +14,10 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+
+a = 5
+b = 8 
+c = pow(a,2) + pow(b,2)
+c = math.sqrt(c)
+
+print(f"the value of the hypothenuse in a rectangle triangle with an a value of 5 and a b value of 8 is {c}")
